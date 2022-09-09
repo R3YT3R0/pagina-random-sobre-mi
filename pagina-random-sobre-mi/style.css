@@ -1,0 +1,115 @@
+body{
+          background-color: rgb(43, 43, 43);
+}
+header{
+          background:rgb(166, 216, 92); 
+          margin-left: 170px; 
+          margin-right: 170px; 
+          padding: 15px; 
+          border-color: black; 
+          border-style: solid;
+          margin-bottom: 8px;
+}
+.logo{
+          display:block ;
+          text-align:center
+}
+.logo img{
+          border-color:black; 
+          border-radius:35%; 
+}
+.logo h1{
+          font-size:35px; 
+          font-family:fantasy;
+}
+/* yo*/
+*{
+          list-style: none;
+}
+
+.yo{
+          background:rgb(166, 216, 92);
+          margin-left: 180px;
+          margin-right:180px;
+          border-radius: 5%;
+          border-color: black;
+          border-style:solid;
+}
+.yo li{
+          font-size: 25px;
+          border-color: black;
+          border-style:solid;
+          margin-bottom: 3px;
+          margin-right: 40px;
+}
+.yo h1{
+          text-align: center;
+          font-size: 45px;
+}
+/* ubicacion */
+.ubicacion{
+          display:inline-table;
+          background:rgb(139, 183, 73);
+          border-color:black; 
+          border-style:solid;
+          border-radius:5px;
+          margin-left: 180px;
+          margin-right:180px;
+          padding-left:35px;
+          padding-right:35px;
+          margin-top:15px;
+          width:1050px;
+}
+.ubicacion p{
+          text-align: center;
+}
+.ubicacion h1{
+          font-size:45px;
+          border-color: black;
+          border-style:solid;
+          text-align: center;
+          margin-left: 85px;
+          margin-right: 85px;
+}
+
+.ubicacion a{
+          color: black;
+          text-decoration: none;
+          font-size: 20px;
+}
+
+/* Juegos */
+.juegos{
+          display:inline-block;
+          background:rgb(166, 216, 92);
+          border-color:black; 
+          border-style:solid;
+          border-radius: 5px;
+          margin-left: 180px;
+          margin-top:160px;
+          padding-left:35px;
+          padding-right:35px;
+          margin-top:15px;
+}
+
+.cardgames{
+          display:inline-block; 
+          border-radius:5px; 
+          background-color: black;
+          border-color:black; 
+          border-style: solid; 
+          min-width:300px; 
+          max-width:300px;
+          margin-top:15px;
+          margin-bottom: 15px;
+          margin-left:25px;
+          margin-right: 25px;
+}
+.cardgames h4{
+          text-align: center;
+          font-size: 25px;
+          border: 3px white solid;
+          margin-left: 20px;
+          margin-right: 20px;
+          color: white;
+}
